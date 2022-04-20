@@ -15,9 +15,12 @@ const Home: NextPage = () => {
         {/*<Navbar/>*/}
 
         <img src="/static/images/header.png" alt="Header" />
+
+        <iframe src="https://discord.com/widget?id=890889005653188648&theme=dark" width="350" height="500" allowTransparency={true} frameBorder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
       </div>
 
-      <div className="background-lines">
+
+      {/*<div className="background-lines">
         <div className="light x1"></div>
         <div className="light x2"></div>
         <div className="light x3"></div>
@@ -27,7 +30,7 @@ const Home: NextPage = () => {
         <div className="light x7"></div>
         <div className="light x8"></div>
         <div className="light x9"></div>
-      </div>
+  </div>*/}
     </div>
   );
 };

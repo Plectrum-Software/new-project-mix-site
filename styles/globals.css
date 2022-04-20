@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background-color: black;
+  background-color: black;
 }
 
 a {
@@ -19,14 +19,40 @@ a {
 /* HEADER */
 
 .header {
-  background-image: linear-gradient(#B2BFF0, #C9BAD2, #000000);
+  background-image: linear-gradient(#b2bff0, #c9bad2, #000000);
   text-align: center;
 }
 
-.headerImage {
+.header-image {
   display: inline-block;
   max-width: 1200px;
   margin-left: 5%;
   margin-right: 5%;
   width: 90%;
+}
+
+/* GAME DESCRIPTION */
+
+.game-description {
+  margin-top: 15vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-description-bg {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+}
+
+.game-description-text {
+  width: 80%;
+  max-width: 1000px;
 }

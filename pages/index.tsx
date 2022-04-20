@@ -6,6 +6,7 @@ import styles from "../styles/Home.module.css";
 import { Heading } from "@chakra-ui/react";
 
 import Navbar from "../components/navbar.js";
+import Footer from "../components/footer.js";
 
 const Home: NextPage = () => {
   return (
@@ -15,19 +16,27 @@ const Home: NextPage = () => {
         <div className="header">
           <img
             src="/static/images/header.png"
-            className="headerImage"
+            className="header-image"
             alt="Project Mix Header"
           />
         </div>
 
-        <iframe
-          src="https://discord.com/widget?id=890889005653188648&theme=dark"
-          width="350"
-          height="500"
-          allowTransparency={true}
-          frameBorder="0"
-          sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-        ></iframe>
+        <div className="game-description">
+        <img
+            src="/static/images/gameDescriptionBG.png"
+            className="game-description-bg"
+            alt="Project Mix Header"
+          />
+
+          <div className="game-description-text">
+            <Heading>A VR game with a unique fusion of visual novel, booze em up and rhythm game elements to tell the tale of a cyberpunk bartender.</Heading>
+          </div>
+
+        </div>
+
+
+
+
       </div>
 
       {/*<div className="background-lines">

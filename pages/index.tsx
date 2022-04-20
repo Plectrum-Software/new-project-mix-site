@@ -11,14 +11,24 @@ const Home: NextPage = () => {
   return (
     <div className="">
       <div className="homepage">
-        <Heading>Project Mix</Heading>
-        {/*<Navbar/>*/}
 
-        <img src="/static/images/header.png" alt="Header" />
+        <div className="header">
+          <img
+            src="/static/images/header.png"
+            className="headerImage"
+            alt="Project Mix Header"
+          />
+        </div>
 
-        <iframe src="https://discord.com/widget?id=890889005653188648&theme=dark" width="350" height="500" allowTransparency={true} frameBorder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        <iframe
+          src="https://discord.com/widget?id=890889005653188648&theme=dark"
+          width="350"
+          height="500"
+          allowTransparency={true}
+          frameBorder="0"
+          sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+        ></iframe>
       </div>
-
 
       {/*<div className="background-lines">
         <div className="light x1"></div>

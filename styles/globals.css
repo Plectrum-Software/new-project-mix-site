@@ -5,6 +5,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: black;
+  text-align: center;
 }
 
 a {
@@ -34,7 +35,8 @@ a {
 /* GAME DESCRIPTION */
 
 .game-description {
-  margin-top: 15vh;
+  height: 234px; /* Actual height of the image */
+  margin-top: 10vh;
   position: relative;
   display: flex;
   justify-content: center;
@@ -53,6 +55,32 @@ a {
 }
 
 .game-description-text {
-  width: 80%;
+  width: 75%;
   max-width: 1000px;
+  text-align: left;
+}
+
+/* TRAILER SECTION */
+
+.game-trailer {
+  height: 684px; /* Actual height of the image */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-trailer-bg {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+}
+
+.game-trailer-text {
+  margin: 5%;
 }

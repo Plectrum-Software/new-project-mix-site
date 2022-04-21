@@ -12,7 +12,6 @@ const Home: NextPage = () => {
   return (
     <div className="">
       <div className="homepage">
-
         <div className="header">
           <img
             src="/static/images/header.png"
@@ -21,35 +20,36 @@ const Home: NextPage = () => {
           />
         </div>
 
+        {/* Game description */}
         <div className="game-description">
-        <img
+          <img
             src="/static/images/gameDescriptionBG.png"
             className="game-description-bg"
-            alt="Project Mix Header"
+            alt="Game Description Backgorund"
           />
 
           <div className="game-description-text">
-            <Heading>A VR game with a unique fusion of visual novel, booze em up and rhythm game elements to tell the tale of a cyberpunk bartender.</Heading>
+            <Heading>
+              A VR game with a unique fusion of visual novel, booze em up and
+              rhythm game elements to tell the tale of a cyberpunk bartender.
+            </Heading>
           </div>
-
         </div>
 
+        {/* Game Trailer */}
 
+        <div className="game-trailer-text">
+          <Heading>CHECK OUT OUR TRAILER!</Heading>
+        </div>
 
-
+        <div className="game-trailer">
+          <img
+            src="/static/images/gameTrailerBG.png"
+            className="game-trailer-bg"
+            alt="Game Trailer Background"
+          />
+        </div>
       </div>
-
-      {/*<div className="background-lines">
-        <div className="light x1"></div>
-        <div className="light x2"></div>
-        <div className="light x3"></div>
-        <div className="light x4"></div>
-        <div className="light x5"></div>
-        <div className="light x6"></div>
-        <div className="light x7"></div>
-        <div className="light x8"></div>
-        <div className="light x9"></div>
-  </div>*/}
     </div>
   );
 };

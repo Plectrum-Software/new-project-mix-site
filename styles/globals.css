@@ -84,3 +84,26 @@ a {
 .game-trailer-text {
   margin: 5%;
 }
+
+/* FOOTER */
+
+.footer {
+  margin-top: 15vh;
+  background-color: white;
+  color: black;
+}
+
+.footer-top {
+  position: relative;
+  height: 50vh;
+
+}
+
+.footer-top-bg {
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+}

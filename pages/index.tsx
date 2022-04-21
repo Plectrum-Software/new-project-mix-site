@@ -49,6 +49,8 @@ const Home: NextPage = () => {
             alt="Game Trailer Background"
           />
         </div>
+
+        <Footer/>
       </div>
     </div>
   );

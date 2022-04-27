@@ -22,11 +22,11 @@ const Home: NextPage = () => {
 
         {/* Game description */}
         <div className="game-description">
-          <img
+          {/*<img
             src="/static/images/gameDescriptionBG.png"
             className="game-description-bg"
             alt="Game Description Backgorund"
-          />
+          />*/}
 
           <div className="game-description-text">
             <Heading>
@@ -50,7 +50,7 @@ const Home: NextPage = () => {
           />
         </div>
 
-        <Footer/>
+        <Footer />
       </div>
     </div>
   );

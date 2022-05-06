@@ -50,6 +50,14 @@ const Home: NextPage = () => {
           />
         </div>
 
+        <div className="character-section">
+          <div className="joyce-character"></div>
+          <div className="mei-character"></div>
+          <div className="merc-character"></div>
+          <div className="takashi-character"></div>
+
+        </div>
+
         <Footer />
       </div>
     </div>

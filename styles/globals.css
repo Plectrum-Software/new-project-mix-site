@@ -89,6 +89,32 @@ a {
   margin: 5%;
 }
 
+/* CHARACTER SECTION */
+
+.joyce-character {
+  background-image: url("../public/static/images/joyceCharacter.png");
+  height: 538px;
+  width: 1172px;
+}
+
+.mei-character {
+  background-image: url("../public/static/images/meiCharacter.png");
+  height: 538px;
+  width: 1172px;
+}
+
+.merc-character {
+  background-image: url("../public/static/images/mercCharacter.png");
+  height: 538px;
+  width: 1172px;
+}
+
+.takashi-character {
+  background-image: url("../public/static/images/takashiCharacter.png");
+  height: 538px;
+  width: 1172px;
+}
+
 /* FOOTER */
 
 .footer {

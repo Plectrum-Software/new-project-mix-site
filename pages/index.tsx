@@ -50,7 +50,7 @@ const Home: NextPage = () => {
           />
         </div>
 
-{/*
+        {/*
         <div className="character-section">
           <div className="joyce-character"></div>
           <div className="mei-character"></div>

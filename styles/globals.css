@@ -9,7 +9,7 @@ body {
   background-size: 100% 100%;
   background-attachment: fixed;
   text-align: center;
-  font-family: 'Share Tech', sans-serif;
+  font-family: "Share Tech", sans-serif;
 }
 
 a {
@@ -24,16 +24,14 @@ a {
 /* HEADER */
 
 .header {
-  background-image: linear-gradient(#b2bff0, #c9bad2, #000000);
-  text-align: center;
+  width: 100vw;
 }
 
 .header-image {
   display: inline-block;
   max-width: 1200px;
-  margin-left: 5%;
-  margin-right: 5%;
-  width: 90%;
+  margin: 0 auto;
+  width: 100%;
 }
 
 /* GAME DESCRIPTION */

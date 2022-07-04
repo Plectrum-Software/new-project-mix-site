@@ -50,6 +50,19 @@ const Home: NextPage = () => {
           />
         </div>
 
+        <div className="buttons-section">
+          <img
+            src="/static/images/discordButton.png"
+            className=""
+            alt="Join Discord Server Button"
+          />
+          <img
+            src="/static/images/wikiButton.png"
+            className=""
+            alt="View our Wiki Page Button"
+          />
+        </div>
+
         {/*
         <div className="character-section">
           <div className="joyce-character"></div>
@@ -59,6 +72,11 @@ const Home: NextPage = () => {
         </div>*/}
 
         <Footer />
+        <img
+          src="/static/images/plectrumLogo.png"
+          className=""
+          alt="Plectrum Logo"
+        />
       </div>
     </div>
   );

@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
+import { Grid, GridItem } from "@chakra-ui/react";
 import { Heading } from "@chakra-ui/react";
 
 import Navbar from "../components/navbar.js";
@@ -51,16 +52,22 @@ const Home: NextPage = () => {
         </div>
 
         <div className="buttons-section">
-          <img
-            src="/static/images/discordButton.png"
-            className=""
-            alt="Join Discord Server Button"
-          />
-          <img
-            src="/static/images/wikiButton.png"
-            className=""
-            alt="View our Wiki Page Button"
-          />
+          <Grid templateColumns="repeat(5, 1fr)" gap={6}>
+            <GridItem w="100%" h="10" bg="blue.500">
+              <img
+                src="/static/images/discordButton.png"
+                className=""
+                alt="Join Discord Server Button"
+              />
+            </GridItem>
+            <GridItem w="100%" h="10" bg="blue.500">
+              <img
+                src="/static/images/wikiButton.png"
+                className=""
+                alt="View our Wiki Page Button"
+              />
+            </GridItem>
+          </Grid>
         </div>
 
         {/*

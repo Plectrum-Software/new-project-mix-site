@@ -8,6 +8,7 @@ import { Heading } from "@chakra-ui/react";
 
 import Navbar from "../components/navbar.js";
 import Footer from "../components/footer.js";
+import TrailerVideo from "../public/static/videos/LatestTrailer.mp4";
 
 const Home: NextPage = () => {
   return (
@@ -44,6 +45,7 @@ const Home: NextPage = () => {
         </div>
 
         <div className="game-trailer">
+          <video src={TrailerVideo} />
           <img
             src="/static/images/gameTrailerBG.png"
             className="game-trailer-bg"

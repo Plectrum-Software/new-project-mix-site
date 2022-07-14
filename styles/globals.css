@@ -113,6 +113,15 @@ a {
   width: 1172px;
 }
 
+/* BUTTONS SECTION */
+.buttons-section {
+  text-align: center;
+}
+
+.button-item {
+  text-align: center;
+}
+
 /* FOOTER */
 
 .footer {
@@ -139,4 +148,8 @@ a {
   width: 75%;
   max-width: 1000px;
   text-align: left;
+}
+
+.footer-img {
+  width: 100vw;
 }

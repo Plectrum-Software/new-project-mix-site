@@ -8,7 +8,7 @@ import { Heading } from "@chakra-ui/react";
 
 import Navbar from "../components/navbar.js";
 import Footer from "../components/footer.js";
-import TrailerVideo from "../public/static/videos/LatestTrailer.mp4";
+//import TrailerVideo from "../public/static/videos/LatestTrailer.mp4";
 
 const Home: NextPage = () => {
   return (
@@ -45,7 +45,7 @@ const Home: NextPage = () => {
         </div>
 
         <div className="game-trailer">
-          <video src={TrailerVideo} />
+          {/* <video src={TrailerVideo} /> */}
           <img
             src="/static/images/gameTrailerBG.png"
             className="game-trailer-bg"
@@ -54,21 +54,38 @@ const Home: NextPage = () => {
         </div>
 
         <div className="buttons-section">
-          <Grid templateColumns="repeat(5, 1fr)" gap={6}>
-            <GridItem w="100%" h="10" bg="blue.500">
-              <img
-                src="/static/images/discordButton.png"
-                className=""
-                alt="Join Discord Server Button"
-              />
+          <Grid templateColumns="repeat(4, 1fr)" gap={6}>
+            <GridItem
+              w="100%"
+              h="100%"
+              bg="blue.500"
+              className="button-item"
+            ></GridItem>
+            <GridItem w="100%" h="100%" bg="blue.500">
+              <div className="button-item">
+                <img
+                  src="/static/images/discordButton.png"
+                  className=""
+                  alt="Join Discord Server Button"
+                />
+              </div>
             </GridItem>
-            <GridItem w="100%" h="10" bg="blue.500">
-              <img
-                src="/static/images/wikiButton.png"
-                className=""
-                alt="View our Wiki Page Button"
-              />
+            <GridItem w="100%" h="100%" bg="blue.500">
+              <div className="button-item">
+                {" "}
+                <img
+                  src="/static/images/wikiButton.png"
+                  className=""
+                  alt="View our Wiki Page Button"
+                />
+              </div>
             </GridItem>
+            <GridItem
+              w="100%"
+              h="100%"
+              bg="blue.500"
+              className="button-item"
+            ></GridItem>
           </Grid>
         </div>
 
@@ -82,8 +99,8 @@ const Home: NextPage = () => {
 
         <Footer />
         <img
+          className="footer-img"
           src="/static/images/plectrumLogo.png"
-          className=""
           alt="Plectrum Logo"
         />
       </div>

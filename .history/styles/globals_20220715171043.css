@@ -127,7 +127,8 @@ a {
 }
 
 .button-item:hover {
-  opacity: 0.5;
+  text-align: center;
+  width: 100%;
 }
 
 /* FOOTER */

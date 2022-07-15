@@ -116,18 +116,10 @@ a {
 /* BUTTONS SECTION */
 .buttons-section {
   text-align: center;
-  margin-left: 5%;
-  margin-right: 5%;
-  width: 90%;
 }
 
 .button-item {
   text-align: center;
-  width: 100%;
-}
-
-.button-item:hover {
-  opacity: 0.5;
 }
 
 /* FOOTER */

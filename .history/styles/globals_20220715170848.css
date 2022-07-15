@@ -123,11 +123,6 @@ a {
 
 .button-item {
   text-align: center;
-  width: 100%;
-}
-
-.button-item:hover {
-  opacity: 0.5;
 }
 
 /* FOOTER */

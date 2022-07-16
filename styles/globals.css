@@ -73,6 +73,7 @@ a {
 }
 
 .game-trailer-bg {
+  background-image: url("../public/static/images/gameTrailerBG.png");
   position: absolute;
   display: flex;
   justify-content: center;
@@ -85,6 +86,12 @@ a {
 
 .game-trailer-text {
   margin: 5%;
+}
+
+.trailer-video {
+  z-index: 100;
+  width: 90vw;
+  text-align: center;
 }
 
 /* CHARACTER SECTION */
@@ -164,4 +171,9 @@ a {
 
 .footer-logo-img {
   width: 25vw;
+}
+
+.social-media-icon {
+  display: inline-block;
+  padding: 1%;
 }

@@ -11,6 +11,21 @@ export default function Footer() {
           </GridItem>
           <GridItem w="100%" h="10" bg="blue.500">
             <h1>social media here</h1>
+            <img
+              className=""
+              src="/static/images/facebook-icon.png"
+              alt="Facebook Logo"
+            />
+            <img
+              className=""
+              src="/static/images/instagram-icon.png"
+              alt="Instagram Logo"
+            />
+            <img
+              className=""
+              src="/static/images/twitter-icon.png"
+              alt="Twitter Logo"
+            />
           </GridItem>
         </Grid>
       </div>

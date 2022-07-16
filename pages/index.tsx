@@ -8,7 +8,7 @@ import { Heading } from "@chakra-ui/react";
 
 import Navbar from "../components/navbar.js";
 import Footer from "../components/footer.js";
-//import TrailerVideo from "../public/static/videos/LatestTrailer.mp4";
+//import TrailerVideo from "../public/static/videos/trailer.mp4";
 
 const Home: NextPage = () => {
   return (
@@ -45,7 +45,9 @@ const Home: NextPage = () => {
         </div>
 
         <div className="game-trailer">
-          {/* <video src={TrailerVideo} /> */}
+          {/* <video>
+            <source src={TrailerVideo} type="video/mp4"></source>
+          </video> */}
           <img
             src="/static/images/gameTrailerBG.png"
             className="game-trailer-bg"
@@ -55,7 +57,6 @@ const Home: NextPage = () => {
 
         <div className="buttons-section">
           <Grid templateColumns="repeat(2, 1fr)" gap={6}>
-
             <GridItem w="100%" h="100%" bg="blue.500">
               <div className="button-item">
                 <img
@@ -75,7 +76,6 @@ const Home: NextPage = () => {
                 />
               </div>
             </GridItem>
-
           </Grid>
         </div>
 
@@ -88,11 +88,6 @@ const Home: NextPage = () => {
         </div>*/}
 
         <Footer />
-        <img
-          className="footer-img"
-          src="/static/images/plectrumLogo.png"
-          alt="Plectrum Logo"
-        />
       </div>
     </div>
   );

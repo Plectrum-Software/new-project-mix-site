@@ -32,7 +32,7 @@ const Home: NextPage = () => {
           />*/}
 
           <div className="game-description-text">
-            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ type: "spring", stiffness: 100 }}>
+            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} >
               <Heading>
                 Project Mix is a VR Visual Novel set in a unique cyberpunk world
                 where you play as Joyce, a fresh bartender recruit at Eleventh

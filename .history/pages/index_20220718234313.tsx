@@ -32,60 +32,41 @@ const Home: NextPage = () => {
           />*/}
 
           <div className="game-description-text">
-            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ type: "spring", stiffness: 100 }}>
-              <Heading>
-                Project Mix is a VR Visual Novel set in a unique cyberpunk world
-                where you play as Joyce, a fresh bartender recruit at Eleventh
-                Heaven, the local run-down bar. As Joyce lives her day-to-day
-                life and mingles with bar-goers, she finds out there is much
-                more to the disillusioned city than it appears.
-              </Heading>
-            </motion.div>
+            <Heading>
+              Project Mix is a VR Visual Novel set in a unique cyberpunk world
+              where you play as Joyce, a fresh bartender recruit at Eleventh
+              Heaven, the local run-down bar. As Joyce lives her day-to-day life
+              and mingles with bar-goers, she finds out there is much more to
+              the disillusioned city than it appears.
+            </Heading>
           </div>
         </div>
 
         <div className="features-section">
           <h2>Features:</h2>
           <ul>
-            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
-              <li>Reimagining the visual novel genre for virtual reality.</li>
-            </motion.div>
-            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
-              <li>
-                Fully interactive drink mixing. Pour liquids between glasses,
-                shake up mistures, and serve the cocktail of your dreams.
-              </li>
-            </motion.div>
-            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
-              <li>
-                Original story set in a unique cyberpunk world with multiple
-                endings. Explore different sotrylines and see where it takes
-                you.
-              </li>
-            </motion.div>
-            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
-              <li>
-                Deep character interaction. Get to know each character and see
-                what secrets you find out.
-              </li>
-            </motion.div>
-            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
-              <li>
-                Shape your relationship with appealing, unforgettable
-                characters.
-              </li>
-            </motion.div>
-            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
-              <li>
-                Immerse yourself with over an hour's worth of original
-                soundtrack.
-              </li>
-            </motion.div>
-            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
-              <li>
-                Explore the world through gorgeous and atmospheric environments.
-              </li>
-            </motion.div>
+            <li>Reimagining the visual novel genre for virtual reality.</li>
+            <li>
+              Fully interactive drink mixing. Pour liquids between glasses,
+              shake up mistures, and serve the cocktail of your dreams.
+            </li>
+            <li>
+              Original story set in a unique cyberpunk world with multiple
+              endings. Explore different sotrylines and see where it takes you.
+            </li>
+            <li>
+              Deep character interaction. Get to know each character and see
+              what secrets you find out.
+            </li>
+            <li>
+              Shape your relationship with appealing, unforgettable characters.
+            </li>
+            <li>
+              Immerse yourself with over an hour's worth of original soundtrack.
+            </li>
+            <li>
+              Explore the world through gorgeous and atmospheric environments.
+            </li>
           </ul>
         </div>
 

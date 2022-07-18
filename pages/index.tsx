@@ -2,13 +2,13 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import ReactPlayer from "react-player";
 
 import { Grid, GridItem } from "@chakra-ui/react";
 import { Heading } from "@chakra-ui/react";
 
 import Navbar from "../components/navbar.js";
 import Footer from "../components/footer.js";
-//import TrailerVideo from "../public/static/videos/LatestTrailer.mp4";
 
 const Home: NextPage = () => {
   return (
@@ -45,9 +45,15 @@ const Home: NextPage = () => {
         </div>
 
         <div className="game-trailer">
-          {/* <video src={TrailerVideo} /> */}
+          <div className="trailer-video">
+            {/* <ReactPlayer url="https://www.youtube.com/watch?v=mscz5Nm3VUo&ab_channel=PlectrumXR" /> */}
+          </div>
+
+          {/* <video>
+            <source src={TrailerVideo} type="video/mp4"></source>
+          </video> */}
           <img
-            src="/static/images/gameTrailerBG.png"
+            src="/static/images/gameTrailerBGplaceholder.png"
             className="game-trailer-bg"
             alt="Game Trailer Background"
           />
@@ -55,7 +61,6 @@ const Home: NextPage = () => {
 
         <div className="buttons-section">
           <Grid templateColumns="repeat(2, 1fr)" gap={6}>
-
             <GridItem w="100%" h="100%" bg="blue.500">
               <div className="button-item">
                 <img
@@ -75,7 +80,6 @@ const Home: NextPage = () => {
                 />
               </div>
             </GridItem>
-
           </Grid>
         </div>
 
@@ -88,11 +92,6 @@ const Home: NextPage = () => {
         </div>*/}
 
         <Footer />
-        <img
-          className="footer-img"
-          src="/static/images/plectrumLogo.png"
-          alt="Plectrum Logo"
-        />
       </div>
     </div>
   );

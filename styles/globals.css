@@ -1,15 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech&display=swap");
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Share Tech", sans-serif;
   background-image: url("../public/static/images/background.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
   text-align: center;
-  font-family: "Share Tech", sans-serif;
 }
 
 a {
@@ -74,6 +74,7 @@ a {
 }
 
 .game-trailer-bg {
+  background-image: url("../public/static/images/gameTrailerBG.png");
   position: absolute;
   display: flex;
   justify-content: center;
@@ -86,6 +87,12 @@ a {
 
 .game-trailer-text {
   margin: 5%;
+}
+
+.trailer-video {
+  z-index: 100;
+  width: 90vw;
+  text-align: center;
 }
 
 /* CHARACTER SECTION */
@@ -161,4 +168,13 @@ a {
 
 .footer-img {
   width: 100vw;
+}
+
+.footer-logo-img {
+  width: 25vw;
+}
+
+.social-media-icon {
+  display: inline-block;
+  padding: 1%;
 }

@@ -12,7 +12,7 @@ import Footer from "../components/footer.js";
 
 const Home: NextPage = () => {
   return (
-    <div className="">
+    <div>
       <div className="homepage">
         <div className="header">
           <img

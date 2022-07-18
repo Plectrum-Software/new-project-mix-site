@@ -32,40 +32,18 @@ const Home: NextPage = () => {
 
           <div className="game-description-text">
             <Heading>
-              Project Mix is a VR Visual Novel set in a unique cyberpunk world
-              where you play as Joyce, a fresh bartender recruit at Eleventh
-              Heaven, the local run-down bar. As Joyce lives her day-to-day life
-              and mingles with bar-goers, she finds out there is much more to
-              the disillusioned city than it appears.
+            Project Mix is a VR Visual Novel set in a unique cyberpunk world where you play as Joyce, a fresh bartender recruit at Eleventh Heaven, the local run-down bar.
+As Joyce lives her day-to-day life and mingles with bar-goers, she finds out there is much more to the disillusioned city than it appears.
+
             </Heading>
           </div>
         </div>
 
         <div className="game-description-text">
-          <ul>
-            <li>Reimagining the visual novel genre for virtual reality.</li>
             <li>
-              Fully interactive drink mixing. Pour liquids between glasses,
-              shake up mistures, and serve the cocktail of your dreams.
+              <ul></ul>
             </li>
-            <li>
-              Original story set in a unique cyberpunk world with multiple
-              endings. Explore different sotrylines and see where it takes you.
-            </li>
-            <li>
-              Deep character interaction. Get to know each character and see
-              what secrets you find out.
-            </li>
-            <li>
-              Shape your relationship with appealing, unforgettable characters.
-            </li>
-            <li>
-              Immerse yourself with over an hour's worth of original soundtrack.
-            </li>
-            <li>
-              Explore the world through gorgeous and atmospheric environments.
-            </li>
-          </ul>
+          </div>
         </div>
 
         {/* Game Trailer */}

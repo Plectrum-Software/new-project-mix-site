@@ -42,7 +42,7 @@ const Home: NextPage = () => {
         </div>
 
         <div className="features-section">
-          <h2>Features:</h2>
+          <h2>Features;</h2>
           <ul>
             <li>Reimagining the visual novel genre for virtual reality.</li>
             <li>

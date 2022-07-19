@@ -32,7 +32,11 @@ const Home: NextPage = () => {
           />*/}
 
           <div className="game-description-text">
-            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ type: "spring", stiffness: 100, delay: 0.5 }}>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ type: "spring", stiffness: 100, delay: 0.5 }}
+            >
               <Heading>
                 Project Mix is a VR Visual Novel set in a unique cyberpunk world
                 where you play as Joyce, a fresh bartender recruit at Eleventh
@@ -112,8 +116,8 @@ const Home: NextPage = () => {
 
         <div className="buttons-section">
           <Grid templateColumns="repeat(2, 1fr)" gap={6}>
-            <GridItem w="100%" h="100%" bg="blue.500">
-              <div className="button-item">
+            <GridItem w="100%" h="100%" bg="blue.500" className="center">
+              <div className="">
                 <img
                   src="/static/images/discordButton.png"
                   className=""
@@ -121,9 +125,8 @@ const Home: NextPage = () => {
                 />
               </div>
             </GridItem>
-            <GridItem w="100%" h="100%" bg="blue.500">
-              <div className="button-item">
-                {" "}
+            <GridItem w="100%" h="100%" bg="blue.500" className="center">
+              <div className="">
                 <img
                   src="/static/images/wikiButton.png"
                   className=""
@@ -143,6 +146,13 @@ const Home: NextPage = () => {
         </div>*/}
 
         <Footer />
+        <div className="logo-section">
+          <img
+            className="footer-logo-img"
+            src="/static/images/plectrumLogo.png"
+            alt="Plectrum Logo"
+          />
+        </div>
       </div>
     </div>
   );

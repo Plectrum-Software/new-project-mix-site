@@ -127,10 +127,15 @@ a {
   margin-left: 5%;
   margin-right: 5%;
   width: 90%;
+  max-width: 1200px;
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button-item {
-  text-align: center;
   width: 100%;
 }
 
@@ -141,14 +146,14 @@ a {
 /* FOOTER */
 
 .footer {
-  margin-top: 15vh;
+  margin-top: 5vh;
   background-color: white;
   color: black;
-  height: 500px;
+  height: 20vh;
 }
 
 .footer-top {
-  position: relative;
+  position: absolute;
   height: 251px;
   width: 100vw;
   background-image: url("../public/static/images/footerTop.png");
@@ -172,9 +177,28 @@ a {
 
 .footer-logo-img {
   width: 25vw;
+  margin: auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .social-media-icon {
   display: inline-block;
   padding: 1%;
+}
+
+.logo-section {
+  background-color: white;
+  text-align: center;
+}
+
+.keep-in-touch {
+  font-size: 3vh;
+  vertical-align: middle;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

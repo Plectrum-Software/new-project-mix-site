@@ -6,11 +6,10 @@ export default function Footer() {
     <div className="footer">
       <div className="footer-top">
         <Grid templateColumns="repeat(2, 1fr)" gap={5}>
-          <GridItem w="30vw" h="10vh" bg="blue.500">
-            <h1>KEEP IN TOUCH!</h1>
+          <GridItem w="30vw" h="10vh" bg="blue.500" className="center">
+            <h1 className="keep-in-touch">KEEP IN TOUCH!</h1>
           </GridItem>
-          <GridItem w="30vw" h="10vh" bg="blue.500">
-            <h1>social media here</h1>
+          <GridItem w="30vw" h="10vh" bg="blue.500" className="center">
             <img
               className="social-media-icon"
               src="/static/images/facebook-icon.png"
@@ -29,12 +28,6 @@ export default function Footer() {
           </GridItem>
         </Grid>
       </div>
-
-      <img
-        className="footer-logo-img"
-        src="/static/images/plectrumLogo.png"
-        alt="Plectrum Logo"
-      />
     </div>
   );
 }

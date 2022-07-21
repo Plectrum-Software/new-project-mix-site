@@ -99,8 +99,8 @@ ul li {
 
 .trailer-video {
   z-index: 100;
-  width: 90vw;
   text-align: center;
+  margin: 0 auto;
 }
 
 /* CHARACTER SECTION */

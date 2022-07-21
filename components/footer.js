@@ -6,10 +6,10 @@ export default function Footer() {
     <div className="footer">
       <div className="footer-top">
         <Grid templateColumns="repeat(2, 1fr)" gap={5}>
-          <GridItem w="30vw" h="10vh" bg="blue.500" className="center">
+          <GridItem w="30vw" h="10vh" bg="" className="center">
             <h1 className="keep-in-touch">KEEP IN TOUCH!</h1>
           </GridItem>
-          <GridItem w="30vw" h="10vh" bg="blue.500" className="center">
+          <GridItem w="30vw" h="10vh" bg="" className="center">
             <img
               className="social-media-icon"
               src="/static/images/facebook-icon.png"

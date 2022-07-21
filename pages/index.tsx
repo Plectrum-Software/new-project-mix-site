@@ -154,10 +154,19 @@ const Home: NextPage = () => {
           />
         </div>
 
+        <br />
+        <br />
+
+        <div>
+          {" "}
+          <Heading>Want to stay connected or learn more?</Heading>
+          <br />
+        </div>
+
         <div className="buttons-section">
           <div className="double-buttons">
             <Grid templateColumns="repeat(2, 1fr)" gap={6}>
-              <GridItem w="100%" h="100%" bg="blue.500" className="center">
+              <GridItem w="100%" h="100%" bg="" className="center">
                 <div className="">
                   <img
                     src="/static/images/discordButton.png"
@@ -166,7 +175,7 @@ const Home: NextPage = () => {
                   />
                 </div>
               </GridItem>
-              <GridItem w="100%" h="100%" bg="blue.500" className="center">
+              <GridItem w="100%" h="100%" bg="" className="center">
                 <div className="">
                   <img
                     src="/static/images/wikiButton.png"
@@ -178,6 +187,8 @@ const Home: NextPage = () => {
             </Grid>
           </div>
         </div>
+
+        <br />
 
         {/*
         <div className="character-section">

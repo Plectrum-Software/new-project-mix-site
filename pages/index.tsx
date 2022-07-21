@@ -36,7 +36,7 @@ const Home: NextPage = () => {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ type: "spring", stiffness: 100, delay: 0.3 }}
+              transition={{ delay: 0.3 }}
             >
               <Heading>
                 Project Mix is a VR Visual Novel set in a unique cyberpunk world
@@ -55,11 +55,25 @@ const Home: NextPage = () => {
 
         <br />
         <br />
+        <br />
+        <br />
+        <div>
+          <img
+            src="/static/images/environments.png"
+            className="environments-gallery"
+            alt="Environments"
+          />
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
 
         <div className="features-section">
           <Heading as="h2" size="xl">
             Features:
           </Heading>
+
           <ul>
             <motion.div
               initial={{ opacity: 0 }}
@@ -85,7 +99,7 @@ const Home: NextPage = () => {
             >
               <li>
                 • Original story set in a unique cyberpunk world with multiple
-                endings. Explore different sotrylines and see where it takes
+                endings. Explore different storylines and see where it takes
                 you.
               </li>
             </motion.div>

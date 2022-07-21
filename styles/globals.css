@@ -47,7 +47,7 @@ ul li {
 
 .game-description {
   height: 234px; /* Actual height of the image */
-  margin-top: 10vh;
+  margin-top: 4vh;
   position: relative;
   display: flex;
   justify-content: center;
@@ -69,6 +69,14 @@ ul li {
   width: 75%;
   max-width: 1000px;
   text-align: center;
+}
+
+/* ENVIRONMENTS GALLERY */
+.environments-gallery {
+  max-width: 1200px;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
 }
 
 /* TRAILER SECTION */

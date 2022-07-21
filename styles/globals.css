@@ -83,6 +83,7 @@ ul li {
 
 .game-trailer-bg {
   background-image: url("../public/static/images/gameTrailerBG.png");
+  background-repeat: no-repeat;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -135,12 +136,15 @@ ul li {
   margin-left: 5%;
   margin-right: 5%;
   width: 90%;
-  max-width: 1200px;
 
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.double-buttons {
+  max-width: 1200px;
 }
 
 .button-item {

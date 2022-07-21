@@ -36,7 +36,7 @@ const Home: NextPage = () => {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ type: "spring", stiffness: 100, delay: 0.5 }}
+              transition={{ type: "spring", stiffness: 100, delay: 0.3 }}
             >
               <Heading>
                 Project Mix is a VR Visual Novel set in a unique cyberpunk world
@@ -64,14 +64,14 @@ const Home: NextPage = () => {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ type: "spring", stiffness: 100, delay: 0.5 }}
+              transition={{ type: "spring", stiffness: 100, delay: 0.3 }}
             >
               <li>• Reimagining the visual novel genre for virtual reality.</li>
             </motion.div>
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ type: "spring", stiffness: 100, delay: 0.5 }}
+              transition={{ type: "spring", stiffness: 100, delay: 0.3 }}
             >
               <li>
                 • Fully interactive drink mixing. Pour liquids between glasses,
@@ -81,7 +81,7 @@ const Home: NextPage = () => {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ type: "spring", stiffness: 100, delay: 0.5 }}
+              transition={{ type: "spring", stiffness: 100, delay: 0.3 }}
             >
               <li>
                 • Original story set in a unique cyberpunk world with multiple
@@ -92,7 +92,7 @@ const Home: NextPage = () => {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ type: "spring", stiffness: 100, delay: 0.5 }}
+              transition={{ type: "spring", stiffness: 100, delay: 0.3 }}
             >
               <li>
                 • Deep character interaction. Get to know each character and see
@@ -102,7 +102,7 @@ const Home: NextPage = () => {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ type: "spring", stiffness: 100, delay: 0.5 }}
+              transition={{ type: "spring", stiffness: 100, delay: 0.3 }}
             >
               <li>
                 • Shape your relationship with appealing, unforgettable
@@ -112,7 +112,7 @@ const Home: NextPage = () => {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ type: "spring", stiffness: 100, delay: 0.5 }}
+              transition={{ type: "spring", stiffness: 100, delay: 0.3 }}
             >
               <li>
                 • Immerse yourself with over an hour's worth of original
@@ -122,7 +122,7 @@ const Home: NextPage = () => {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ type: "spring", stiffness: 100, delay: 0.5 }}
+              transition={{ type: "spring", stiffness: 100, delay: 0.3 }}
             >
               <li>
                 • Explore the world through gorgeous and atmospheric
@@ -155,26 +155,28 @@ const Home: NextPage = () => {
         </div>
 
         <div className="buttons-section">
-          <Grid templateColumns="repeat(2, 1fr)" gap={6}>
-            <GridItem w="100%" h="100%" bg="blue.500" className="center">
-              <div className="">
-                <img
-                  src="/static/images/discordButton.png"
-                  className=""
-                  alt="Join Discord Server Button"
-                />
-              </div>
-            </GridItem>
-            <GridItem w="100%" h="100%" bg="blue.500" className="center">
-              <div className="">
-                <img
-                  src="/static/images/wikiButton.png"
-                  className=""
-                  alt="View our Wiki Page Button"
-                />
-              </div>
-            </GridItem>
-          </Grid>
+          <div className="double-buttons">
+            <Grid templateColumns="repeat(2, 1fr)" gap={6}>
+              <GridItem w="100%" h="100%" bg="blue.500" className="center">
+                <div className="">
+                  <img
+                    src="/static/images/discordButton.png"
+                    className=""
+                    alt="Join Discord Server Button"
+                  />
+                </div>
+              </GridItem>
+              <GridItem w="100%" h="100%" bg="blue.500" className="center">
+                <div className="">
+                  <img
+                    src="/static/images/wikiButton.png"
+                    className=""
+                    alt="View our Wiki Page Button"
+                  />
+                </div>
+              </GridItem>
+            </Grid>
+          </div>
         </div>
 
         {/*

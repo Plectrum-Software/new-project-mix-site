@@ -10,6 +10,7 @@ import { Heading } from "@chakra-ui/react";
 
 import Navbar from "../components/navbar.js";
 import Footer from "../components/footer.js";
+import Player from "../components/player.js";
 
 const Home: NextPage = () => {
   return (
@@ -40,54 +41,92 @@ const Home: NextPage = () => {
               <Heading>
                 Project Mix is a VR Visual Novel set in a unique cyberpunk world
                 where you play as Joyce, a fresh bartender recruit at Eleventh
-                Heaven, the local run-down bar. As Joyce lives her day-to-day
-                life and mingles with bar-goers, she finds out there is much
-                more to the disillusioned city than it appears.
+                Heaven, the local run-down bar.
+              </Heading>
+              <br />
+              <Heading>
+                As Joyce lives her day-to-day life and mingles with bar-goers,
+                she finds out there is much more to the disillusioned city than
+                it appears.
               </Heading>
             </motion.div>
           </div>
         </div>
 
+        <br />
+        <br />
+
         <div className="features-section">
-          <h2>Features:</h2>
+          <Heading as="h2" size="xl">
+            Features:
+          </Heading>
           <ul>
-            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
-              <li>Reimagining the visual novel genre for virtual reality.</li>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ type: "spring", stiffness: 100, delay: 0.5 }}
+            >
+              <li>• Reimagining the visual novel genre for virtual reality.</li>
             </motion.div>
-            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ type: "spring", stiffness: 100, delay: 0.5 }}
+            >
               <li>
-                Fully interactive drink mixing. Pour liquids between glasses,
+                • Fully interactive drink mixing. Pour liquids between glasses,
                 shake up mistures, and serve the cocktail of your dreams.
               </li>
             </motion.div>
-            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ type: "spring", stiffness: 100, delay: 0.5 }}
+            >
               <li>
-                Original story set in a unique cyberpunk world with multiple
+                • Original story set in a unique cyberpunk world with multiple
                 endings. Explore different sotrylines and see where it takes
                 you.
               </li>
             </motion.div>
-            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ type: "spring", stiffness: 100, delay: 0.5 }}
+            >
               <li>
-                Deep character interaction. Get to know each character and see
+                • Deep character interaction. Get to know each character and see
                 what secrets you find out.
               </li>
             </motion.div>
-            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ type: "spring", stiffness: 100, delay: 0.5 }}
+            >
               <li>
-                Shape your relationship with appealing, unforgettable
+                • Shape your relationship with appealing, unforgettable
                 characters.
               </li>
             </motion.div>
-            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ type: "spring", stiffness: 100, delay: 0.5 }}
+            >
               <li>
-                Immerse yourself with over an hour's worth of original
+                • Immerse yourself with over an hour's worth of original
                 soundtrack.
               </li>
             </motion.div>
-            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ type: "spring", stiffness: 100, delay: 0.5 }}
+            >
               <li>
-                Explore the world through gorgeous and atmospheric environments.
+                • Explore the world through gorgeous and atmospheric
+                environments.
               </li>
             </motion.div>
           </ul>
@@ -101,6 +140,7 @@ const Home: NextPage = () => {
 
         <div className="game-trailer">
           <div className="trailer-video">
+            <Player />
             {/* <ReactPlayer url="https://www.youtube.com/watch?v=mscz5Nm3VUo&ab_channel=PlectrumXR" /> */}
           </div>
 

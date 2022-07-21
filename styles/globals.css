@@ -21,6 +21,14 @@ a {
   box-sizing: border-box;
 }
 
+ul li {
+  /* Bullet color */
+  color: white;
+  list-style-type: disc;
+  font-size: 22px;
+  line-height: 40px;
+}
+
 /* HEADER */
 
 .header {
@@ -60,7 +68,7 @@ a {
 .game-description-text {
   width: 75%;
   max-width: 1000px;
-  text-align: left;
+  text-align: center;
 }
 
 /* TRAILER SECTION */

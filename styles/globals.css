@@ -152,7 +152,8 @@ ul li {
 }
 
 .button-item:hover {
-  opacity: 0.5;
+  opacity: 0.7;
+  cursor: pointer;
 }
 
 /* FOOTER */
@@ -197,6 +198,11 @@ ul li {
 .social-media-icon {
   display: inline-block;
   padding: 1%;
+}
+
+.social-media-icon:hover {
+  opacity: 0.6;
+  cursor: pointer;
 }
 
 .logo-section {

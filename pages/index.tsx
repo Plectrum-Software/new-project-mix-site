@@ -167,7 +167,7 @@ const Home: NextPage = () => {
           <div className="double-buttons">
             <Grid templateColumns="repeat(2, 1fr)" gap={6}>
               <GridItem w="100%" h="100%" bg="" className="center">
-                <div className="">
+                <div className="button-item">
                   <img
                     src="/static/images/discordButton.png"
                     className=""
@@ -176,7 +176,7 @@ const Home: NextPage = () => {
                 </div>
               </GridItem>
               <GridItem w="100%" h="100%" bg="" className="center">
-                <div className="">
+                <div className="button-item">
                   <img
                     src="/static/images/wikiButton.png"
                     className=""

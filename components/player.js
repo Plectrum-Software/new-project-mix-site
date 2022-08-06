@@ -23,3 +23,5 @@ export default class Example extends React.Component {
     event.target.pauseVideo();
   }
 }
+
+// https://brightwhiz.com/running-javascript-based-on-screen-size/

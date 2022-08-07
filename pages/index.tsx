@@ -24,27 +24,30 @@ const Home: NextPage = () => {
           />
         </div>
 
+        <div className="center">
+          <img
+            src="/static/images/genres.png"
+            className="genres"
+            alt="Genres"
+          />
+        </div>
+        <br />
+
         {/* Game description */}
         <div className="game-description">
-          {/*<img
-            src="/static/images/gameDescriptionBG.png"
-            className="game-description-bg"
-            alt="Game Description Backgorund"
-          />*/}
-
           <div className="game-description-text">
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.3 }}
             >
-              <Heading>
+              <Heading size="lg">
                 Project Mix is a VR Visual Novel set in a unique cyberpunk world
                 where you play as Joyce, a fresh bartender recruit at Eleventh
                 Heaven, the local run-down bar.
               </Heading>
               <br />
-              <Heading>
+              <Heading size="lg">
                 As Joyce lives her day-to-day life and mingles with bar-goers,
                 she finds out there is much more to the disillusioned city than
                 it appears.
@@ -54,10 +57,11 @@ const Home: NextPage = () => {
         </div>
 
         <br />
+
         <br />
         <br />
         <br />
-        <div>
+        <div className="center">
           <img
             src="/static/images/environments.png"
             className="environments-gallery"
@@ -70,7 +74,7 @@ const Home: NextPage = () => {
         <br />
 
         <div className="features-section">
-          <Heading as="h2" size="xl">
+          <Heading as="h2" size="lg">
             Features:
           </Heading>
 
@@ -146,7 +150,7 @@ const Home: NextPage = () => {
         {/* Game Trailer */}
 
         <div className="game-trailer-text">
-          <Heading>CHECK OUT OUR TRAILER!</Heading>
+          <Heading size="lg">CHECK OUT OUR TRAILER!</Heading>
         </div>
 
         <div className="game-trailer">

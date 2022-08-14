@@ -24,30 +24,27 @@ const Home: NextPage = () => {
           />
         </div>
 
-        <div className="center">
-          <img
-            src="/static/images/genres.png"
-            className="genres"
-            alt="Genres"
-          />
-        </div>
-        <br />
-
         {/* Game description */}
         <div className="game-description">
+          {/*<img
+            src="/static/images/gameDescriptionBG.png"
+            className="game-description-bg"
+            alt="Game Description Backgorund"
+          />*/}
+
           <div className="game-description-text">
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.3 }}
             >
-              <Heading size="lg">
+              <Heading>
                 Project Mix is a VR Visual Novel set in a unique cyberpunk world
                 where you play as Joyce, a fresh bartender recruit at Eleventh
                 Heaven, the local run-down bar.
               </Heading>
               <br />
-              <Heading size="lg">
+              <Heading>
                 As Joyce lives her day-to-day life and mingles with bar-goers,
                 she finds out there is much more to the disillusioned city than
                 it appears.
@@ -57,11 +54,10 @@ const Home: NextPage = () => {
         </div>
 
         <br />
-
         <br />
         <br />
         <br />
-        <div className="center">
+        <div>
           <img
             src="/static/images/environments.png"
             className="environments-gallery"
@@ -74,7 +70,7 @@ const Home: NextPage = () => {
         <br />
 
         <div className="features-section">
-          <Heading as="h2" size="lg">
+          <Heading as="h2" size="xl">
             Features:
           </Heading>
 
@@ -132,7 +128,7 @@ const Home: NextPage = () => {
               whileInView={{ opacity: 1 }}
               transition={{ type: "spring", stiffness: 100, delay: 0.3 }}
             >
-              <li>• Immerse yourself with hours of original soundtracks.</li>
+              <li>• Immerse yourself with hours of original soundtrack.</li>
             </motion.div>
             <motion.div
               initial={{ opacity: 0 }}
@@ -150,7 +146,7 @@ const Home: NextPage = () => {
         {/* Game Trailer */}
 
         <div className="game-trailer-text">
-          <Heading size="lg">CHECK OUT OUR TRAILER!</Heading>
+          <Heading>CHECK OUT OUR TRAILER!</Heading>
         </div>
 
         <div className="game-trailer">
@@ -182,26 +178,22 @@ const Home: NextPage = () => {
           <div className="double-buttons">
             <Grid templateColumns="repeat(2, 1fr)" gap={6}>
               <GridItem w="100%" h="100%" bg="" className="center">
-                <a href="https://discord.gg/SPaPqqDKzd">
-                  <div className="button-item">
-                    <img
-                      src="/static/images/discordButton.png"
-                      className=""
-                      alt="Join Discord Server Button"
-                    />
-                  </div>
-                </a>
+                <div className="button-item">
+                  <img
+                    src="/static/images/discordButton.png"
+                    className=""
+                    alt="Join Discord Server Button"
+                  />
+                </div>
               </GridItem>
               <GridItem w="100%" h="100%" bg="" className="center">
-                <a href="https://projectmix.fandom.com/wiki/Project_Mix_Wiki">
-                  <div className="button-item">
-                    <img
-                      src="/static/images/wikiButton.png"
-                      className=""
-                      alt="View our Wiki Page Button"
-                    />
-                  </div>
-                </a>
+                <div className="button-item">
+                  <img
+                    src="/static/images/wikiButton.png"
+                    className=""
+                    alt="View our Wiki Page Button"
+                  />
+                </div>
               </GridItem>
             </Grid>
           </div>

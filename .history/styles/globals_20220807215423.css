@@ -75,17 +75,17 @@ ul li {
 /* GENRES */
 .genres {
   max-width: 1200px;
-  margin-left: 25%;
-  margin-right: 25%;
-  width: 50%;
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 40%;
 }
 
 @media screen and (max-width: 800px) {
   .genres {
     max-width: 1200px;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    width: 95%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96%;
   }
 }
 

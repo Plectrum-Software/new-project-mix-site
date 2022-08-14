@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="footer-top">
         <Grid templateColumns="repeat(2, 1fr)" gap={5}>
           <GridItem w="30vw" h="10vh" bg="" className="center">
-            <h2 className="keep-in-touch">KEEP IN TOUCH!</h2>
+            <h1 className="keep-in-touch">KEEP IN TOUCH!</h1>
           </GridItem>
           <GridItem w="30vw" h="10vh" bg="" className="center">
             <a href="https://www.facebook.com/ProjectMixVR">

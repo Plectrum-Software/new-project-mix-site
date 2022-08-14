@@ -10,7 +10,7 @@ body {
   background-size: 100% 100%;
   background-attachment: fixed;
   text-align: center;
-  color: rgb(69, 69, 69) !important;
+  color: rgb(207, 207, 207) !important;
 }
 
 a {
@@ -24,7 +24,7 @@ a {
 
 ul li {
   /* Bullet color */
-  color: rgb(69, 69, 69) !important;
+  color: rgb(207, 207, 207) !important;
   list-style-type: disc;
   font-size: 22px;
   line-height: 42px;
@@ -75,17 +75,17 @@ ul li {
 /* GENRES */
 .genres {
   max-width: 1200px;
-  margin-left: 25%;
-  margin-right: 25%;
-  width: 50%;
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 40%;
 }
 
 @media screen and (max-width: 800px) {
   .genres {
     max-width: 1200px;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    width: 95%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96%;
   }
 }
 

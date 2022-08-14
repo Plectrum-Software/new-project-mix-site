@@ -185,22 +185,26 @@ const Home: NextPage = () => {
           <div className="double-buttons">
             <Grid templateColumns="repeat(2, 1fr)" gap={6}>
               <GridItem w="100%" h="100%" bg="" className="center">
-                <div className="button-item">
-                  <img
-                    src="/static/images/discordButton.png"
-                    className=""
-                    alt="Join Discord Server Button"
-                  />
-                </div>
+                <a href="https://discord.gg/SPaPqqDKzd">
+                  <div className="button-item">
+                    <img
+                      src="/static/images/discordButton.png"
+                      className=""
+                      alt="Join Discord Server Button"
+                    />
+                  </div>
+                </a>
               </GridItem>
               <GridItem w="100%" h="100%" bg="" className="center">
-                <div className="button-item">
-                  <img
-                    src="/static/images/wikiButton.png"
-                    className=""
-                    alt="View our Wiki Page Button"
-                  />
-                </div>
+                <a href="https://projectmix.fandom.com/wiki/Project_Mix_Wiki">
+                  <div className="button-item">
+                    <img
+                      src="/static/images/wikiButton.png"
+                      className=""
+                      alt="View our Wiki Page Button"
+                    />
+                  </div>
+                </a>
               </GridItem>
             </Grid>
           </div>

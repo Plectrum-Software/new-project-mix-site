@@ -10,21 +10,27 @@ export default function Footer() {
             <h2 className="keep-in-touch">KEEP IN TOUCH!</h2>
           </GridItem>
           <GridItem w="30vw" h="10vh" bg="" className="center">
-            <img
-              className="social-media-icon"
-              src="/static/images/facebook-icon.png"
-              alt="Facebook Logo"
-            />
-            <img
-              className="social-media-icon"
-              src="/static/images/instagram-icon.png"
-              alt="Instagram Logo"
-            />
-            <img
-              className="social-media-icon"
-              src="/static/images/twitter-icon.png"
-              alt="Twitter Logo"
-            />
+            <a href="https://www.facebook.com/ProjectMixVR">
+              <img
+                className="social-media-icon"
+                src="/static/images/facebook-icon.png"
+                alt="Facebook Logo"
+              />
+            </a>
+            <a href="https://www.instagram.com/projectmixvr/">
+              <img
+                className="social-media-icon"
+                src="/static/images/instagram-icon.png"
+                alt="Instagram Logo"
+              />
+            </a>
+            <a href="https://www.twitter.com/projectmixvr">
+              <img
+                className="social-media-icon"
+                src="/static/images/twitter-icon.png"
+                alt="Twitter Logo"
+              />
+            </a>
           </GridItem>
         </Grid>
       </div>
